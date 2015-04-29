@@ -1,0 +1,132 @@
+body
+{
+	background: #393B3C;
+color: #ebebeb !important;	/*text-shadow: 1px 0px 1px #222;*/
+}
+
+#order_comments {
+width: 70%;
+height:20%;
+}
+
+#billing_country, label[for='billing_country']{
+display:none;}
+
+.modal-dialog h3, .modal-dialog h4, .food {
+color: black;
+}
+
+#menu_wrapper
+{
+	 /*background: transparent url('../images/menu_bg_dark.png') repeat;*/
+	background:#fcd662;
+	z-index: 999;
+	border-left: 10px solid #4d5052;
+	border-right: 1px solid #4d5052;
+}
+
+.nav li ul
+{
+	background: #fcd662 repeat;
+}
+
+
+#homepage_wrapper
+{
+	/* background: transparent url('../images/body_bg_dark.png') repeat;*/
+	background: #3e4194;
+	border-right: 10px solid #4d5052;
+}
+
+h1, h2, h3, h4, h5, h6, .page_header, .price, h3.cufon a
+{
+	color: #fff;
+}
+
+.gmap_marker h4
+{
+	color: #000000;
+	text-shadow: 0 0 0;
+}
+
+.nav li
+{
+	border-bottom: 1px solid #555555;
+	border-top: 1px solid #222;
+}
+
+.nav li a, .nav li a:active, .nav li a:hover
+{
+	/*color: #fff;*/
+	color:rgb(40, 40, 40);
+}
+
+
+.nav li a span
+{
+	/* color: #999;*/
+	color:#DF0101;
+	font-size: medium;
+}
+
+.nav li.current-menu-item
+{
+	/* background: transparent url('../images/body_bg_dark.png') repeat;*/
+	background:#F3F781;
+}
+
+hr
+{
+	border-top: 1px solid #555555;
+	border-bottom: 0;
+}
+
+a
+{
+	color: #ff9c00;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.search_box input[type=text], input[type=text], input[type=password], select, textarea
+{
+	background: #191919;
+	border: 1px solid #0C0D0D;
+	-webkit-box-shadow: -3px -3px 0 0 #313334, 3px 3px 0 0 #313334, 3px 0 0 0 #313334, 0 3px 0 0 #313334, 3px -3px 0 0 #313334, -3px 3px 0 0 #313334;
+	-moz-box-shadow: -3px -3px 0 0 #313334, 3px 3px 0 0 #313334, 3px 0 0 0 #313334, 0 3px 0 0 #313334, 3px -3px 0 0 #313334, -3px 3px 0 0 #313334;
+	box-shadow: -3px -3px 0 0 #313334, 3px 3px 0 0 #313334, 3px 0 0 0 #313334, 0 3px 0 0 #313334, 3px -3px 0 0 #313334, -3px 3px 0 0 #313334;
+}
+
+pre, code, tt {background: #191919;
+	border: 1px solid #0C0D0D;
+	-webkit-box-shadow: -3px -3px 0 0 #313334, 3px 3px 0 0 #313334, 3px 0 0 0 #313334, 0 3px 0 0 #313334, 3px -3px 0 0 #313334, -3px 3px 0 0 #313334;
+	-moz-box-shadow: -3px -3px 0 0 #313334, 3px 3px 0 0 #313334, 3px 0 0 0 #313334, 0 3px 0 0 #313334, 3px -3px 0 0 #313334, -3px 3px 0 0 #313334;
+	box-shadow: -3px -3px 0 0 #313334, 3px 3px 0 0 #313334, 3px 0 0 0 #313334, 0 3px 0 0 #313334, 3px -3px 0 0 #313334, -3px 3px 0 0 #313334;
+}
+
+.frame_left .caption, .frame_right .caption, .frame_center .caption, .comment .right
+{
+	text-shadow: 0 0 0;
+	color: #555;
+}
+
+#page_content_wrapper ul.twitter li
+{
+	background-image:url(../images/icon_twitter_bird2.png);
+}
+
+#serachmain {
+	margin-left: 0.8cm;
+	margin-top:20px;	
+}
+
+#serachmainbutton {
+	margin-left: 0.8cm;
+	padding-top: 1cm;
+	color: red;
+}

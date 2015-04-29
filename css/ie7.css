@@ -1,0 +1,4 @@
+input[type=submit], input[type=button], a.button
+{
+	padding: .65em 1em .65em 1em;
+}
