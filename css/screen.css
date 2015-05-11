@@ -12,6 +12,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	font-size:100%;
 	font-family:inherit;
 	vertical-align:baseline;
+	font-family: Mistral;
 }
 table #shop_table {
 color:black !important;}
@@ -287,6 +288,13 @@ a img
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Mistral';
+	src: url('../fonts/Mistral.ttf');
+	src: local('☺'), url('../fonts/Mistral.woff') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
 
 /*
 	Global Layout
@@ -777,7 +785,7 @@ blockquote h3
 
 #homepage_wrapper
 {
-	width: 600px;
+	width: 740px;
 	min-height: 100%;
 	position: absolute;
 	top:0;
@@ -2128,8 +2136,8 @@ visibility: visible;
 white-space: normal;
 widows: auto;
 background: url('../images/000_50.png') repeat;
-height: 2.5cm;
-width: 20cm;
+height: 3.2cm;
+width: 27cm;
 }
 
 .header-info-part {

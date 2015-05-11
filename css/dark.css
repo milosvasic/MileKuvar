@@ -19,7 +19,7 @@ color: black;
 #menu_wrapper
 {
 	 /*background: transparent url('../images/menu_bg_dark.png') repeat;*/
-	background:#fcd662;
+	background:#ffcc00;
 	z-index: 999;
 	border-left: 10px solid #4d5052;
 	border-right: 1px solid #4d5052;
@@ -27,7 +27,7 @@ color: black;
 
 .nav li ul
 {
-	background: #fcd662 repeat;
+	background: #ffcc00 !important;
 }
 
 
@@ -37,10 +37,31 @@ color: black;
 	background: #3e4194;
 	border-right: 10px solid #4d5052;
 }
+.lang_sel_sel, .lang_sel_other{
+font-size:22px !important;
+}
+
+#main_menu > li > a {
+font-size:28px !important;
+font-family:Mistral !important;
+text-transform: uppercase !important;
+
+}
+
+#main_menu > li > a>span {
+font-size:16px !important;
+font-family:Mistral !important;
+text-transform: uppercase !important;
+
+}
 
 h1, h2, h3, h4, h5, h6, .page_header, .price, h3.cufon a
 {
 	color: #fff;
+	font-family:Mistral !important;
+}
+.sidebar_content>p {
+font-size:26px;
 }
 
 .gmap_marker h4

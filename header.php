@@ -350,7 +350,7 @@ input[type=submit], input[type=button], a.button {
 			
 <br/>
 
-			<form action="<?php echo $_SERVER['REQUEST_URI']; ?>">
+			<form action="<?php echo $_SERVER['REQUEST_URI']; ?>" style="display:none">
 
 			<input id="serachmain" type="text" name="s">
 			<br></br>

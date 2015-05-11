@@ -58,10 +58,22 @@
 	cursor: pointer;
 }
 
-#prevslide:active, #nextslide:active
+#prevslide:active, #nextslide:active, #pauseplay:active
 {
 	opacity: 0.6;
 }
+
+#pauseplay
+{
+	position: fixed;
+	right:47px;
+	bottom: 50px;
+	width: 50px;
+	height: 50px;
+	background:url(../images/pauseImgBtn.png) no-repeat;
+	cursor: pointer;
+}
+
 
 #slidecaption { 
 	position: fixed;

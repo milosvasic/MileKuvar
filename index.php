@@ -132,6 +132,7 @@ $initial_image = $all_photo_arr[0]->guid;
 
 		<!--Arrow Navigation--> 
 		<a id="prevslide" class="load-item"></a> 
+		<a id="pauseplay" class="load-item"></a>
 		<a id="nextslide" class="load-item"></a>
 		
 		<?php						
@@ -252,12 +253,43 @@ $j(document).ready(function() {
 				 <span style="color:#fcd662;font-weight:bolder">Nedelja: 10-18h</span><br>
 			</div>
 			
-			<div class="header-info-part3">
-				<div class="header-info-part-label"><h6 id="header-info-part-label-h4" style="padding-left:0.2cm">Telefon</h6></div>
-				 <h4 style="padding-left:0.2cm;color:#fcd662;font-weight:bold" id="header-info-part-h4">011/26-830-00</h4>
+			<div class="header-info-part2">
+				<div class="header-info-part-label"><h6 id="header-info-part-label-h4" style="width: 215px;">Radno Vreme dostave</h6></div>
+                 <span style="color:#fcd662;font-weight:bolder">Radni dan: 9-21:30h</span><br>
+				 <span style="color:#fcd662;font-weight:bolder">Subota: 9-21:30h</span><br>
+				 <span style="color:#fcd662;font-weight:bolder">Nedelja: 10-17:30h</span><br>
 			</div>
+			
+			<div class="header-info-part3" style="margin-left: 75px;">
+				<div class="header-info-part-label"><h6 id="header-info-part-label-h4" style="padding-left:0.2cm">Telefon</h6></div>
+				<table>
+					<tr style="background:none;">
+						<td style="padding: 0;border-bottom: 0"><img width="18" src="wp-content\themes\MileKuvar\images\about_icon\telenor.png" style="float:right;margin-right:10px">
+						</td>
+						<td style="padding: 0;border-bottom: 0"><span style="color:#fcd662;font-weight:bolder">069/21-600-60</span></td>
+					</tr>
+					<tr style="background:none;">
+						<td style="padding: 0;border-bottom: 0"><img width="18" src="wp-content\themes\MileKuvar\images\about_icon\mts.png" style="float:right;margin-right:10px">
+						</td>
+						<td style="padding: 0;border-bottom: 0"><span style="color:#fcd662;font-weight:bolder">064/21-600-60</span></td>
+					</tr>
+					<tr style="background:none;">
+						<td style="padding: 0;border-bottom: 0"><img width="20" src="wp-content\themes\MileKuvar\images\about_icon\vip.png" style="float:right;margin-right:10px">
+						</td>
+						<td style="padding: 0;border-bottom: 0"><span style="color:#fcd662;font-weight:bolder">061/21-600-60</span></td>
+					</tr>
+					<tr style="background:none;">
+						<td style="padding: 0;border-bottom: 0"><img width="50" src="wp-content\themes\MileKuvar\images\about_icon\telekom.png" style="float:right;margin-right:10px">
+						</td>
+						<td style="padding: 0;border-bottom: 0"><span style="color:#fcd662;font-weight:bolder">011/26-830-00</span></td>
+					</tr>
+				</table>
+
+			</div>
+			
+		
 <br class="clear"/></br>
-<div class="header-info" style="left:0;margin-top:90px;height:auto !important;"><h1 style="color:#fcd662;font-weight:600">MESTO ZA INFORMACIJE</h1></div>
+<div class="header-info" style="left:0;margin-top:110px;height:auto !important;"><h1 style="color:#fcd662;font-weight:600">MESTO ZA INFORMACIJE</h1></div>
 			<?php } else {?>
  <div style="height: 0.5cm"></div>
                         <div class="header-info-part">
@@ -273,12 +305,41 @@ $j(document).ready(function() {
                                  <span style="color:#fcd662;font-weight:bolder">Недеља: 10-18h</span><br>
                         </div>
 
-                        <div class="header-info-part3">
-                                <div class="header-info-part-label"><h6 id="header-info-part-label-h4" style="padding-left:0.2cm">Телефон</</div>
-                                 <h4 style="padding-left:0.2cm;color:#fcd662;font-weight:bold;width:200px;" id="header-info-part-h4">011/26-830-00</h4>
-                        </div>
+                        <div class="header-info-part2">
+				<div class="header-info-part-label"><h6 id="header-info-part-label-h4" style="width: 215px;">Радно време доставе</h6></div>
+                 <span style="color:#fcd662;font-weight:bolder">Радни дан: 9-21:30h</span><br>
+				 <span style="color:#fcd662;font-weight:bolder">Субота: 9-21:30h</span><br>
+				 <span style="color:#fcd662;font-weight:bolder">Недеља: 10-17:30h</span><br>
+			</div>
+			
+			<div class="header-info-part3" style="margin-left: 75px;">
+				<div class="header-info-part-label"><h6 id="header-info-part-label-h4" style="padding-left:0.2cm">Телефон</h6></div>
+				<table>
+					<tr style="background:none;">
+						<td style="padding: 0;border-bottom: 0"><img width="18" src="wp-content\themes\MileKuvar\images\about_icon\telenor.png" style="float:right;margin-right:10px">
+						</td>
+						<td style="padding: 0;border-bottom: 0"><span style="color:#fcd662;font-weight:bolder">069/21-600-60</span></td>
+					</tr>
+					<tr style="background:none;">
+						<td style="padding: 0;border-bottom: 0"><img width="18" src="wp-content\themes\MileKuvar\images\about_icon\mts.png" style="float:right;margin-right:10px">
+						</td>
+						<td style="padding: 0;border-bottom: 0"><span style="color:#fcd662;font-weight:bolder">064/21-600-60</span></td>
+					</tr>
+					<tr style="background:none;">
+						<td style="padding: 0;border-bottom: 0"><img width="20" src="wp-content\themes\MileKuvar\images\about_icon\vip.png" style="float:right;margin-right:10px">
+						</td>
+						<td style="padding: 0;border-bottom: 0"><span style="color:#fcd662;font-weight:bolder">061/21-600-60</span></td>
+					</tr>
+					<tr style="background:none;">
+						<td style="padding: 0;border-bottom: 0"><img width="50" src="wp-content\themes\MileKuvar\images\about_icon\telekom.png" style="float:right;margin-right:10px">
+						</td>
+						<td style="padding: 0;border-bottom: 0"><span style="color:#fcd662;font-weight:bolder">011/26-830-00</span></td>
+					</tr>
+				</table>
+
+			</div>
 <br class="clear"/></br>
-<div class="header-info" style="left:0;margin-top:90px;height:auto !important;"><h1 style="color:#fcd662;font-weight:600">MESTO ZA INFORMACIJE</h1></div>
+<div class="header-info" style="left:0;margin-top:110px;height:auto !important;"><h1 style="color:#fcd662;font-weight:600">MESTO ZA INFORMACIJE</h1></div>
 <?php } ?>
 		</div>
 

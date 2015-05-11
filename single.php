@@ -29,6 +29,10 @@ $j('.nav li').not(".blog, .menu-item-type-custom").children('a').click(function(
 });
 
 $j(document).ready(function(){ $j('#map_contact').css('display', 'none'); });
+
+$j('#test').click(function() {
+  alert( "Handler for .click() called." );
+});
 </script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
