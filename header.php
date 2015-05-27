@@ -134,15 +134,7 @@ if($pp_skin == 'dark' OR $pp_skin == 'transparent')
 
 <style type="text/css">
 
-      #header-info-part-label-h4 {
-        font-family: "Bebas Neue", Arial; 
-        
-      }
-	  
-	  #header-info-part-label-p {
-        font-family: "Bebas Neue", Arial; 
-        
-      }
+     
 
 <?php
 	$pp_h1_size = get_option('pp_h1_size');

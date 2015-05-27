@@ -4,6 +4,13 @@ body
 color: #ebebeb !important;	/*text-shadow: 1px 0px 1px #222;*/
 }
 
+
+body.sr  {
+font-family: MistralC !important;}
+
+body.en  {
+font-family: Mistral !important;}
+
 #order_comments {
 width: 70%;
 height:20%;
@@ -38,30 +45,29 @@ color: black;
 	border-right: 10px solid #4d5052;
 }
 .lang_sel_sel, .lang_sel_other{
-font-size:22px !important;
+font-size:18px !important;
 }
 
 #main_menu > li > a {
-font-size:28px !important;
-font-family:Mistral !important;
+font-size:23px !important;
 text-transform: uppercase !important;
 
 }
 
 #main_menu > li > a>span {
-font-size:16px !important;
-font-family:Mistral !important;
-text-transform: uppercase !important;
+font-size:15px !important;
 
 }
 
 h1, h2, h3, h4, h5, h6, .page_header, .price, h3.cufon a
 {
 	color: #fff;
-	font-family:Mistral !important;
 }
+
+h3.cufon a {
+font-size:50px; }
 .sidebar_content>p {
-font-size:26px;
+font-size:20px;
 }
 
 .gmap_marker h4

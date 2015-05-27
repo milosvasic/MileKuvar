@@ -756,10 +756,19 @@ include (TEMPLATEPATH . "/plugins/shiba-media-library/shiba-media-library.php");
 
 function translate_text($lat, $cir, $lang) {
 $returnstring = "";
+return $lat;
 if ($lang == en ) {$returnstring = $lat; }
 else {$returnstring = $cir; }
 
-return $returnstring;}
+}
+
+
+add_filter('body_class', 'append_language_class');
+function append_language_class($classes){
+  $classes[] = ICL_LANGUAGE_CODE;  //or however you want to name your class based on the language code
+  return $classes;
+}
+
 
 function pp_formatter($content) {
 	$new_content = '';

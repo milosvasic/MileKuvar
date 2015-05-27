@@ -2,18 +2,25 @@
 	CSS Reset 
 */
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+html, body, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
 {
 	margin:0;
 	padding:0;
 	border:0;
 	font-weight:inherit;
 	font-style:inherit;
-	font-size:100%;
-	font-family:inherit;
+	font-size:20px;
 	vertical-align:baseline;
-	font-family: Mistral;
 }
+span, a, div {
+margin:0;
+	padding:0;
+	border:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:15px;
+	vertical-align:baseline;}
+
 table #shop_table {
 color:black !important;}
 
@@ -55,7 +62,6 @@ border-top-style: solid;
 border-top-width: 1px;
 color: rgb(68, 68, 68);
 display: block;
-font-family: Arial, helvetica, sans-serif;
 font-size: 13px;
 height: auto;
 line-height: 20px;
@@ -77,7 +83,6 @@ width: 248px;
 -webkit-font-smoothing: subpixel-antialiased;
 color: rgb(68, 68, 68);
 display: block;
-font-family: Arial, helvetica, sans-serif;
 font-size: 14px;
 font-weight: 300;
 height: 20px;
@@ -94,7 +99,6 @@ width: 248px;
 -webkit-font-smoothing: subpixel-antialiased;
 color: rgb(68, 68, 68);
 display: block;
-font-family: Arial, helvetica, sans-serif;
 font-size: 13px;
 height: 546px;
 line-height: 20px;
@@ -116,7 +120,6 @@ z-index: 2;}
 -webkit-font-smoothing: subpixel-antialiased;
 color: rgb(0, 0, 0);
 display: block;
-font-family: Arial, helvetica, sans-serif;
 font-size: 13px;
 height: auto;
 line-height: 20px;
@@ -163,7 +166,6 @@ color: rgb(51, 51, 51);
 cursor: auto;
 display: inline-block;
 flex-direction: column;
-font-family: Roboto, arial, sans-serif;
 font-size: 13px;
 font-style: normal;
 font-variant: normal;
@@ -236,7 +238,6 @@ box-sizing: border-box;
 color: rgb(51, 51, 51);
 cursor: pointer;
 display: inline-block;
-font-family: Roboto, arial, sans-serif;
 font-size: 13px;
 font-style: normal;
 font-variant: normal;
@@ -290,8 +291,16 @@ a img
 
 @font-face {
 	font-family: 'Mistral';
-	src: url('../fonts/Mistral.ttf');
-	src: local('☺'), url('../fonts/Mistral.woff') format('ttf');
+	src: url('../fonts/MERMAID.ttf');
+	src: local('☺'), url('../fonts/MERMAID.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MistralC';
+	src: url('../fonts/CIRMISTR.ttf');
+	src: local('☺'), url('../fonts/CIRMISTR.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -323,7 +332,6 @@ body
 {
 	background: #fff;
 	font-size: 13px;
-	font-family: Arial,"helvetica neue",Helvetica,Verdana,sans-serif;
 	padding: 0;
 	margin: 0;
 	color: white;
@@ -381,7 +389,7 @@ h1
 
 h2
 {
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: normal;
 	color: #454a2e;
 }
@@ -425,7 +433,7 @@ h6
 
 .page_header
 {
-	font-size: 70px;
+	font-size: 50px;
 	font-weight: normal;
 	color: #454a2e;
 	line-height: 80px;
@@ -435,7 +443,6 @@ h1, h2, h3, h4, h5, h6, .page_header
 {
 	text-transform: uppercase;
 	
-	 font-family:proxima-nova, Helvetica, sans-serif !important;
 
 }
 
@@ -539,7 +546,6 @@ img.frame
 	margin: 0 8px 0 0;
 	font-size: 40px;
 	line-height: 40px;
-	font-family: 'gnuolane_rg';
 }
 
 blockquote
@@ -677,7 +683,6 @@ blockquote h3
 {
 	
 	color: #707152;
-	font-family: 'gnuolane_rg';
 }
 
 .nav li a:hover, .nav li a:active
@@ -909,7 +914,6 @@ blockquote h3
 	color: #fff;
 	font-weight: bold;
 	font-size: 13px;
-	font-family: Arial,"helvetica neue",Helvetica,Verdana,sans-serif;
 }
 
 #content_wrapper .card_content
@@ -983,7 +987,6 @@ blockquote h3
 {
 	font-size: 11px;
 	font-style: italic;
-	font-family: Georgia, Arial, sans-serif;
 	word-spacing: 1px;
 	width: 100%;
 	padding: 0;
@@ -2038,7 +2041,6 @@ flex-wrap: nowrap;
 float: none;
 flood-color: rgb(0, 0, 0);
 flood-opacity: 1;
-font-family: 'Open Sans', sans-serif;
 font-kerning: auto;
 font-size: 13px;
 font-style: normal;
@@ -2154,7 +2156,6 @@ background-size: auto;
 color: rgb(255, 255, 255);
 display: block;
 float: left;
-font-family: 'Open Sans', sans-serif;
 font-size: 12px;
 font-style: normal;
 font-variant: normal;
@@ -2186,7 +2187,6 @@ background-size: auto;
 color: rgb(255, 255, 255);
 display: block;
 float: left;
-font-family: 'Open Sans', sans-serif;
 font-size: 12px;
 font-style: normal;
 font-variant: normal;
@@ -2218,7 +2218,6 @@ background-size: auto;
 color: rgb(255, 255, 255);
 display: block;
 float: left;
-font-family: 'Open Sans', sans-serif;
 font-size: 12px;
 font-style: normal;
 font-variant: normal;
@@ -2238,7 +2237,6 @@ width: 170px;
 .header-info-part-label {
 	color: rgb(255, 255, 255);
 display: block;
-font-family: bebas_neueregular, Helvetica, Arial, sans-serif;
 font-size: 15px;
 font-style: normal;
 font-variant: normal;
@@ -2259,7 +2257,7 @@ width: 150px;
 #header-info-part-label-h4 {
 	color: #fcd662;
 display: block;
-font-size: 17px;
+font-size: 15px;
 font-style: normal;
 font-variant: normal;
 font-weight: bolder;
