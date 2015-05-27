@@ -297,7 +297,7 @@ a img
 
 @font-face {
 	font-family: 'Mistral';
-	src: url('../fonts/MERMAID.ttf');
+	src: url('../fonts/MERMAID.eot');
 	src: local('☺'), url('../fonts/MERMAID.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
@@ -305,7 +305,7 @@ a img
 
 @font-face {
 	font-family: 'MistralC';
-	src: url('../fonts/CIRMISTR.ttf');
+	src: url('../fonts/CIRMISTR.eot');
 	src: local('☺'), url('../fonts/CIRMISTR.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
